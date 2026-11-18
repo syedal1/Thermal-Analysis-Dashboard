@@ -1,0 +1,13 @@
+{
+  "executable": "\\\\PGSAPP3301.gar.corp.intel.com\\Installer\\AquaHbase\\AquaCMDClient\\Client\\AquaCmdLine.exe",
+  "server": "GAR",
+  "transport": "mcp",
+  "domains": {
+    "CLASS": {
+      "mode": "report_config"
+    },
+    "SORT": {"mode": "report_config"}
+  },
+  "timeout_seconds": 3600,
+  "_instructions": "Both domains use -ReportConfig with a unique local report copy: CLASS uses config/NVL_Aqua_Class_Automation_Parameters.txt with configured sensor selection; SORT uses config/NVL_Aqua_Sort_Automation_Parameters.txt. SDX preserves the complete export because AQUA rejects reduced reports; only configured tests are imported for analysis. The SORT file declares PreAssembly / SDX; SDX is preserved as source_data_domain and validated against CSV metadata, separately from the profile's SORT domain. Pass -aquaServer, -lots, -outputFileName and optional -programNames. Original parameter files remain unchanged; frozen copies and hashes are recorded. No server cache write or saved report path is required. Profile source must be aqua. UNITS_LIST and TRACE metadata are not sensor readings. Sensor selection still comes from the requested dashboard category. Legacy modes are documented in config/DTS_PLOT_WORKFLOW.md."
+}

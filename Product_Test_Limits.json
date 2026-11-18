@@ -1,0 +1,175 @@
+{
+  "_product_aliases": {
+    "HX28C": "NVL_Class_HX28C",
+    "nvlHX": "NVL_Class_HX28C",
+    "nvl28hx": "NVL_Class_HX28C",
+
+    "S8C": "NVL_Class_S8C",
+    "s8c": "NVL_Class_S8C",
+    "nvls8c": "NVL_Class_S8C",
+
+    "U8C": "NVL_Class_U8C",
+    "u8c": "NVL_Class_U8C",
+    "nvlu8c": "NVL_Class_U8C",
+
+    "S18C": "NVL_Class_S18C",
+    "s18c": "NVL_Class_S18C",
+    "nvls18c": "NVL_Class_S18C",
+
+    "DNL28C": "NVL_Class_DNL28C",
+    "dnl28c": "NVL_Class_DNL28C",
+    "nvldnl28c": "NVL_Class_DNL28C",
+
+    "C816_N2P": "NVL_Sort_Cdie_816_N2P"
+  },
+
+  "NVL_Class_HX28C": [
+    {
+      "test": "TH_TD_IPP::PCD_TDAU0_PTH_DIODE_XXX::TD_X_TDAU_K_START_X_X_X_X_SOT",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 0, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "TH_TD_IPH::HUB_TDAU0_PTH_DIODE_XXX::TD_X_TDAU_K_START_X_X_X_X_SOT",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 0, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "TH_TD_IPG::GCD_TDAU0_PTH_DIODE_XXX::TD_X_TDAU_K_START_X_X_X_X_SOT",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 0, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "TH_TD_IPC::CPU_TDAU0_PTH_DIODE_XXX::TD_X_TDAU_K_START_X_X_X_X_SOT",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 0, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+
+    {
+      "test": "PCS_SOT0",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 0, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT1",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 0, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT2",
+      "sockets": {
+        "CLASSHOT": { "UCL": 105, "LCL": 95 },
+        "CSM": { "UCL": null, "LCL": null },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT3",
+      "sockets": {
+        "CLASSHOT": { "UCL": 105, "LCL": 93 },
+        "CSM": { "UCL": null, "LCL": null },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    }
+  ],
+
+  "NVL_Class_S8C": [
+    {
+      "test": "PCS_SOT0",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 5, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT1",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 5, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT2",
+      "sockets": {
+        "CLASSHOT": { "UCL": 105, "LCL": 95 },
+        "CSM": { "UCL": 5, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT3",
+      "sockets": {
+        "CLASSHOT": { "UCL": 107, "LCL": 93 },
+        "CSM": { "UCL": 5, "LCL": -15 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    }
+  ],
+
+  "NVL_Class_U8C": [
+    {
+      "test": "PCS_SOT0",
+      "sockets": {
+        "CLASSHOT": { "UCL": 110, "LCL": 90 },
+        "CSM": { "UCL": 10, "LCL": -10 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT1",
+      "sockets": {
+        "CLASSHOT": { "UCL": 110, "LCL": 90 },
+        "CSM": { "UCL": 10, "LCL": -10 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT2",
+      "sockets": {
+        "CLASSHOT": { "UCL": 108, "LCL": 92 },
+        "CSM": { "UCL": 10, "LCL": -10 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    },
+    {
+      "test": "PCS_SOT3",
+      "sockets": {
+        "CLASSHOT": { "UCL": 108, "LCL": 92 },
+        "CSM": { "UCL": 10, "LCL": -10 },
+        "PHMHOT": { "UCL": null, "LCL": null }
+      }
+    }
+  ],
+
+  "NVL_Class_S18C": [
+    {
+      "inherit": "NVL_Class_S8C"
+    }
+  ],
+
+  "NVL_Class_DNL28C": [
+    {
+      "inherit": "NVL_Class_S8C"
+    }
+  ]
+}

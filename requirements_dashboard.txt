@@ -1,0 +1,21 @@
+# Atlas Thermal Sensor Dashboard Requirements
+# Install with: pip install -r requirements_dashboard.txt
+
+dash>=2.14.0
+Flask>=3.1.0
+dash-bootstrap-components>=1.5.0
+plotly>=5.17.0
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+duckdb==1.5.6
+pyarrow>=14.0.0
+pillow>=10.0.0
+reportlab>=4.0.0
+kaleido>=1.0.0
+python-pptx>=1.0.2
+pywin32>=311; sys_platform == "win32"
+scipy>=1.15.0
+xlrd>=2.0.1
+mcp>=1.20,<2
+anyio>=4.5,<4.12
